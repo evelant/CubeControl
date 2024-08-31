@@ -1,0 +1,6 @@
+[submodule "Assimilations/zwave-lib-dotnet"]
+	path = Assimilations/zwave-lib-dotnet
+	url = https://github.com/evelant/zwave-lib-dotnet.git
+[submodule "Assimilations/ZigbeeNet"]
+	path = Assimilations/ZigbeeNet
+	url = https://github.com/evelant/ZigbeeNet.git

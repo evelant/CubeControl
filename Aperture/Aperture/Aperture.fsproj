@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>NewApp</RootNamespace>
+        <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="App.fs" />
+        <AvaloniaResource Include="**\*.xaml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Fabulous.Avalonia" Version="3.0.0-pre6" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.0-beta1" />
+    </ItemGroup>
+</Project>
