@@ -21,7 +21,7 @@
     <CodesignProvision>iOS Team Provisioning Profile: CubeControl.Aperture</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Aperture\Aperture.fsproj" />
+    <ProjectReference Include="..\Aperture.Core\Aperture.Core.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia.iOS" Version="11.2.0-beta1" />

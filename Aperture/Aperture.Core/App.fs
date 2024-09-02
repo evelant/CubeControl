@@ -1,4 +1,4 @@
-namespace Aperture
+namespace Aperture.Core
 
 open System
 open Avalonia

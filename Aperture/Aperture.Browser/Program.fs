@@ -37,7 +37,7 @@ open Avalonia.Browser
 open Avalonia.Controls.ApplicationLifetimes
 open Avalonia.Logging
 open Avalonia.Threading
-open Aperture
+open Aperture.Core
 
 
 module Program =
@@ -45,7 +45,7 @@ module Program =
     do ()
 
     [<CompiledName "BuildAvaloniaApp">]
-    let buildAvaloniaApp () = Aperture.App.create()
+    let buildAvaloniaApp () = App.create()
 
     [<EntryPoint>]
     let main argv =

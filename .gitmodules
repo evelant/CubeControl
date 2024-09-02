@@ -4,3 +4,6 @@
 [submodule "Assimilations/ZigbeeNet"]
 	path = Assimilations/ZigbeeNet
 	url = https://github.com/evelant/ZigbeeNet.git
+[submodule "Assimilations/NRules"]
+	path = GLaDOS/NRules
+	url = https://github.com/evelant/NRules.git

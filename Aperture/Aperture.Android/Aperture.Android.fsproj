@@ -23,8 +23,8 @@
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.2" />
     <PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModel" Version="2.8.4.1" />
     <PackageReference Include="Avalonia.Android" Version="11.2.0-beta1" />
-    <ProjectReference Include="..\Aperture\Aperture.fsproj" />
-
+    <ProjectReference Include="..\Aperture.Core\Aperture.Core.fsproj" />
+    
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\**\*" />
     <Compile Include="MainActivity.fs" />

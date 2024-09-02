@@ -5,7 +5,7 @@ open Android.Content.PM
 open Avalonia
 open Avalonia.Android
 open Fabulous.Avalonia
-open Aperture
+open Aperture.Core
 
 [<Activity(Label = "Aperture.Android",
            Theme = "@style/MyTheme.NoActionBar",

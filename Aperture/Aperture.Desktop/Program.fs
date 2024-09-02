@@ -3,7 +3,7 @@ namespace Aperture.Desktop
 open System
 open Avalonia
 open Fabulous.Avalonia
-open Aperture
+open Aperture.Core
 
 module Program =
     // Initialization code. Don't use any Avalonia, third-party APIs or any

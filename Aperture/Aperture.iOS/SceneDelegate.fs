@@ -2,7 +2,7 @@ namespace Aperture.iOS
 
 open Foundation
 open Fabulous.Avalonia
-open Aperture
+open Aperture.Core
 open UIKit
 
 [<Register(nameof SceneDelegate)>]

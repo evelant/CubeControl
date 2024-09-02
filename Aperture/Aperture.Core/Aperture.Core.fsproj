@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <RootNamespace>NewApp</RootNamespace>
+        <RootNamespace>Aperture.Core</RootNamespace>
         <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
     </PropertyGroup>
 

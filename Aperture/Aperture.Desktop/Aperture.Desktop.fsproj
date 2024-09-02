@@ -15,7 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia.Desktop" Version="11.2.0-beta1" />
-    <ProjectReference Include="..\Aperture\Aperture.fsproj" />
+    <ProjectReference Include="..\Aperture.Core\Aperture.Core.fsproj" />
     <Compile Include="Program.fs"/>
   </ItemGroup>
 </Project>

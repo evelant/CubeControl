@@ -50,6 +50,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Aperture\Aperture.fsproj" />
+		<ProjectReference Include="..\Aperture.Core\Aperture.Core.fsproj" />
 	</ItemGroup>
 </Project>

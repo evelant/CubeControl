@@ -46,4 +46,6 @@ I think that a home automation system written in a high performance strongly typ
 * Experiment with a rules engine for driving automations instead of the usual "if this then that" one-shot event handling systems commonly used.
 * Device model designed for resilience
 * Device model designed for introspection by AI tools to enable experiences that feel "magical" to users
-* Loose coupling of parts with strongly typed communication between them. Assimilations (integrations) should be usable by other projects via well defined and consistent APIs.
+* Loose coupling of parts with strongly typed communication between them. Assimilations (integrations) should be usable by other projects via well-defined and consistent APIs.
+* Decouple the model of device from physical devices. Define all devices as virtual/logical devices which can then be associated to real devices. Use logical devices to build UIs, automations, scripts, etc. This prevents "cascades" when you add, change, or swap out a device where you also need to edit everything in the system that references the device. If logical/virtual devices are the primary target for UI and automations then physical devices may be changed without breaking any UI or automations.
+* 
